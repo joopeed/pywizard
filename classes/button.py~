@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+import pygame
+
+images = {}
+
+images["botao"] = pygame.image.load("./images/botao.png")
+
+class Button(pygame.sprite.Sprite):
+	"""
+	Class to create gates
+	"""
+	def __init__(self, posInitial, tipo, screen):
+                pygame.sprite.Sprite.__init__(self)
+		self.x,self.y = posInitial
+		self.chao = pygame.Rect((self.x+4,self.y),(34,25))
+		self.tipo = tipo
+		self.screen = screen
+
+	def update(self):
+		self.chao = pygame.Rect((self.x+4,self.y),(34,25))
+		#pygame.draw.rect(self.screen, (255,100,255), self.chao) # if you want see the floor under the gate
+		self.screen.blit(images[self.tipo],(self.x,self.y))
+		

@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+import pygame
+from time import sleep
+pygame.init()
+images = {}
+
+images["arbusto"] = pygame.image.load("./images/arbusto.png").convert_alpha()
+images["arbustoburning"] = pygame.image.load("./images/arbustoburning.png").convert_alpha()
+class Arbusto(pygame.sprite.Sprite):
+	"""
+	Class to create trees
+	"""
+	def __init__(self, posInitial, tipo, screen):
+                pygame.sprite.Sprite.__init__(self)
+		self.x,self.y = posInitial
+		self.chao = pygame.Rect((self.x+20,self.y+100),(140,15))
+		self.tipo = tipo
+		self.screen = screen
+		self.burned = False
+
+	def update(self):
+		#pygame.draw.rect(self.screen, (255,100,255), self.chao) # if you want see the floor under the tree
+		self.chao = pygame.Rect((self.x+20,self.y+100),(140,15))
+		self.screen.blit(images[self.tipo],(self.x,self.y))
+	def burning(self):
+		self.screen.blit(images[self.tipo+"burning"],(self.x,self.y))
+		self.burned = True

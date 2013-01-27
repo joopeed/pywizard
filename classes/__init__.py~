@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+# Classes Package
+
+from dragao import *
+from mago import *
+from parede import *
+from porta import *
+from botao import *
+from arvore import *

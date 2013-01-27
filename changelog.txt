@@ -1,0 +1,74 @@
+Dom, 20 mai 2012 16:46:
+Modificações no while principal
+Criação de uma função pra fazer os monstros andarem sós
+Alterações nas classes do dragão e da porta
+Dom, 20 mai 2012 17:18:
+Criação da pasta classes e separação das classes em arquivos distintos
+Inclusição do atributo screen em todas as classes
+Dom, 20 mai 2012 17:22:
+Teclas de movimentação padrão mudadas A,S,D,W
+Dom, 20 mai 2012 17:32:
+Poderesdosmagos.txt modificado
+Dom, 20 mai 2012 17:42:
+Adicionado barra de mana aos magos
+Dom, 20 mai 2012 17:44:
+Poderesdosmagos.txt modificado
+Dom, 2012-05-20 18:03:08.151000
+adicionado o changelog.py
+Dom, 2012-05-20 18:11:11.600212
+Eliane entrou aceitou nosso convite =D
+Dom, 2012-05-20 19:07:40.135000
+adicionado self.direction na class mago
+Dom, 2012-05-20 19:44:28.830000
+criacao da class projeteis
+Dom, 2012-05-20 19:46:31.023970
+modificação no changelog.py
+Dom, 2012-05-20 20:35:26.079542
+Consertada a treta da tela
+Seg, 2012-05-21 01:03:14.444888
+Bolas de fogo, agora, não passam por superfícies
+e diminuem o life dos seres vivos a que tocar...
+Seg, 2012-05-21 01:05:41.387878
+Algumas classes tiveram q ser bem modificadas por estarem dando conflito com as outras..
+Seg, 2012-05-21 01:07:29.194034
+a funcao organize() agora recebe tambem uma lista de todos os objetos e de todos os seres vivos..
+Seg, 2012-05-21 01:25:33.473666
+Roteiro.txt atualizado
+Seg, 2012-05-21 14:03:49.878919
+acrescentado funcao powers() que faz o jogador escolher o poder padrao, o qual o botao esquerdo do mouse atira, agora.
+Seg, 2012-05-21 14:04:28.364711
+acrescentado menu de powers, na tecla p
+Seg, 2012-05-21 14:04:45.878914
+menu de items mudou para tecla i
+Ter, 2012-05-22 02:20:30.443440
+alteracoes ainda em construcao em projeteis, favor, nao mexer =p
+Ter, 2012-05-22 12:38:28.342000
+criado o package classes para importar todas as class inicializados no __init__.py
+Ter, 2012-05-22 23:13:22.950149
+Pronto! Modificações na classe projeteis terminadas
+Qua, 2012-05-23 02:21:21.245531
+alterada a maneira como se atira de modo que a direção do tiro seja a indicada pelo mouse
+Qua, 2012-05-23 02:22:13.222198
+alteracoes para que o tiro so possa ser dado se o mago estiver virado pra este lado..
+Qua, 2012-05-23 15:24:31.740873
+criado o rectangulo de visao do dragao, que tira o life do inimigo caso esteja contido nele
+Qua, 2012-05-23 15:24:52.161675
+criado a funcao invisible para os magos, vai servir como poder
+Qua, 2012-05-23 16:01:34.010379
+Adicionado arquivo documentation.txt que contém informações de como criar novos objetos no jogo
+Sex, 2012-05-25 03:08:53.493038
+adicionado mais arvores
+Sex, 2012-05-25 03:09:26.910568
+adicionada classe a
+Sex, 2012-05-25 03:09:51.079241
+adicionado gui de pontos
+Sex, 2012-05-25 03:10:18.776391
+adicionado waiter de ataques
+Sex, 2012-05-25 03:10:43.674841
+otimizado o import de imagens com convert_alpha()
+Sá, 2012-05-26 14:53:20.439507
+organizado e criado novas funções no código main
+Sá, 2012-05-26 14:53:38.543206
+alterado nome dos arquivos de classe
+Sá, 2012-08-10 02:53:38.543206
+Adicionado socket pra connet android

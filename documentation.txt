@@ -1,0 +1,32 @@
+Documentation about how to create a new objects
+
+1 - Buttons
+First you should create the object in "Objects Y Area",
+after you can add the condition to which gate it will open...
+Something like that:
+if Wizard.floor.colliderect(button.floor):		
+	walk_gate-=1
+2 - Wizards/Magos
+First you should create the object out of while
+Then, you must add a lot of conditions to he dont collides...
+Add him in this groups/lists and functions:
+	Parameter of movemonsters(), powers()
+	in things2[], group_objects[], vivos[]
+
+3 - Dragons/Dragões:
+You should create the object out of while
+and add a condition to it walk together the other things
+Add it in this groups/lists:
+	in things[],vivos[], group_objects[]
+
+4 - Gates/Ports:
+First you should create the object in "Objects Y Area",
+after add it in things[], things2[], group_objects[]
+
+5 - Walls:
+First you should create the object in "Objects Y Area",
+after add it in things[], things2[], group_objects[]
+
+6 - Trees/Árvores:
+First you should create the object in "Objects Y Area",
+after add it in things[], things2[], group_objects[]

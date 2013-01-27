@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+import pygame
+
+images = {}
+
+images["tree2"] = pygame.image.load("images/tree2.png").convert_alpha()
+
+class Tree(pygame.sprite.Sprite):
+	"""
+	Class to create trees
+	"""
+	def __init__(self, posInitial, tipo, screen):
+                pygame.sprite.Sprite.__init__(self)
+		self.x,self.y = posInitial
+		self.chao = pygame.Rect((self.x+50,self.y+204),(40,15))
+		self.tipo = tipo
+		self.screen = screen
+
+	def update(self):
+		self.chao = pygame.Rect((self.x+50,self.y+204),(40,15))
+		#pygame.draw.rect(screen, (255,100,255), self.chao) # if you want see the floor under the tree
+		self.screen.blit(images[self.tipo],(self.x,self.y))

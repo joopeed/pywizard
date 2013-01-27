@@ -1,0 +1,19 @@
+Aberto às sugestões de todos
+
+Mago Vermelho - Eldur - Poderes de Fogo (Offense)
+1 - Lança Bolas de Fogo (Cooldown - Não utiliza mana) - IMPLANTADO
+2 - Ataque em Área - Explosão (Utiliza mana)
+3 - Caminho de Fogo Enquanto Anda (Utiliza mana)
+Mago Azul - Kaul - Poderes de Gelo e Água (Support)
+1 - Lança de Gelo (Cooldown - Não utiliza mana)
+2 - Chuva (Utiliza mana)
+3 - Congela (Utiliza mana)
+Mago Negro - Myrkur - Poderes das Sombras (Offense) - Ganha mana ao longo do tempo
+1 - Bola de Energia (Utiliza mana)
+2 - Absorve Life do Inimigo (Utiliza mana)
+3 - Tranfere mana (Utiliza mana)
+Mago Branco - Vel - Poderes da Luz/Elétrico (Support)
+1 - Raio (Cooldown - Não Utiliza mana)
+2 - Transfere Life (Utiliza mana)
+3 - Invisibilidade (Utiliza mana) - IMPLANTADO
+
